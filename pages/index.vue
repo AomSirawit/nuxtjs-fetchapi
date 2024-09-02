@@ -54,7 +54,7 @@
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
                   {{ item.description }}
                 </p>
-                <p class="mb-3 font-normal text-green-600">
+                <p class="mb-3 font-semibold text-green-600">
                   {{ item.price }} $
                 </p>
                 <NuxtLink :to="`/product/${item.id}`"
