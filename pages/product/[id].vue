@@ -4,7 +4,7 @@
     <div class="text-gray-700">
       <p class="text-xl font-bold mb-2">{{ product.title }}</p>
       <p class="text-lg mb-2">Category: <span class="text-gray-500">{{ product.category }}</span></p>
-      <p class="text-lg mb-2">Brand: <span class="text-gray-500">{{ product.brand }}</span></p>
+      <p v-if="product.brand != null" class="text-lg mb-2">Brand: <span class="text-gray-500">{{ product.brand }}</span></p>
       <p class="text-lg mb-4">Description: <span class="text-gray-600">{{ product.description }}</span></p>
       <p class="text-xl font-semibold">Price: <span class="text-green-600">{{ product.price }} $</span></p>
       <div class="flex justify-center items-center">
