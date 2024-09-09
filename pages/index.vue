@@ -98,7 +98,6 @@
   const { data: product } = await useFetch(
     "https://dummyjson.com/products?limit=4"
   );
-  console.log(product)
   </script>
 
 <style scoped></style>
